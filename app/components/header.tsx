@@ -16,6 +16,7 @@ export const Header = () => {
                             width={40}
                             height={20}
                             alt="The Justus Kimtai logo"
+                            className="ml-4"
                         /></Link>
 
                     <ul className="hidden md:flex space-x-6">
@@ -48,7 +49,7 @@ export const Header = () => {
                             </Link>
                         </li>
                     </ul>
-                    <button className="md:hidden text-black hover:text-lg focus:outline-none">
+                    <button className="md:hidden mr-4 text-black hover:text-lg focus:outline-none">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-6 w-6"
