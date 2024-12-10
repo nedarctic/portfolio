@@ -8,6 +8,12 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'footer-image': "url('/footerbackground.png')",
+      },
+      fontFamily: {
+        bodoni: ['var(--font-bodoni-moda)', 'serif'],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
