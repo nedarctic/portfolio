@@ -7,7 +7,7 @@ import { bodoniModa } from '../ui/fonts';
 export const Header = () => {
     const pathname = usePathname();
     return (
-        <header className="sticky top-0">
+        <header className="sticky top-0 container mx-auto px-4">
             <nav className="bg-white text-black">
                 <div className={`${bodoniModa.className} font-medium flex justify-between items-center h-24`}>
                     <Link href="/">

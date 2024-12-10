@@ -31,11 +31,11 @@ export default function RootLayout({
       <body
         className={`${bodoniModa.className} ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="container mx-auto px-4">
+        <div className="bg-white">
           <Header />
           {children}
+          <Footer />
         </div>
-        <Footer />
       </body>
     </html>
   );
