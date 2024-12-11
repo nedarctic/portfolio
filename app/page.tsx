@@ -4,7 +4,6 @@ import { AboutText } from "./components/abouttext";
 import { CoverText } from "./components/covertext";
 import { CallToAction } from "./components/calltoaction";
 import { ThankYou } from "./components/thankyou";
-import { Skills } from "./components/skills";
 
 import styles from './styles/ScrollAnimate.module.css';
 
@@ -22,10 +21,7 @@ export default function Home() {
         <AboutText />
         <Image src="/aboutimage.png" alt="Justus Kimtai about image" width={300} height={340} className={`p-4`} />
       </div>
-      <div className="flex justify-center items-center h-screen">
-        <Skills/>
-      </div>
-      <div className="flex flex-col justify-end items-center mb-10">
+      <div className="flex flex-col justify-end items-center p-10">
         <ThankYou/>
       </div>
     </div>

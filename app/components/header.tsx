@@ -37,7 +37,7 @@ export const Header = () => {
 
     return (
         <>
-            <header className="sticky top-0 left-0 right-0 bg-white px-2">
+            <header className="sticky top-0 left-0 right-0 bg-white px-2 z-10">
                 <nav className="bg-white text-black">
                     <div className={`${bodoniModa.className} font-medium flex justify-between items-center h-24`}>
                         <Link href="/">
@@ -110,12 +110,6 @@ export const Header = () => {
                     id="modal"
                 >
                     <div className="bg-white rounded-lg shadow-lg w-4/5 max-w-sm">
-                        <button
-                            onClick={closeMenu} // Close the menu when 'X' is clicked
-                            className="absolute top-2 right-2 text-gray-500 text-xl focus:outline-none"
-                        >
-                            &times;
-                        </button>
                         <ul className="flex flex-col space-y-2 p-3">
                             {[
                                 { href: "/", label: "Home" },
@@ -128,7 +122,7 @@ export const Header = () => {
                                     <Link
                                         href={item.href}
                                         onClick={closeMenu}
-                                        className={`block w-full p-2 rounded-md ${pathname === item.href ? "bg-custom-peach text-black font-bold" : "hover:bg-gray-200"}`}
+                                        className={`block text-black w-full p-2 rounded-md ${pathname === item.href ? "bg-custom-peach text-black font-bold" : "hover:bg-gray-200"}`}
                                     >
                                         {item.label}
                                     </Link>
