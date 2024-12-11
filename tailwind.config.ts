@@ -17,6 +17,9 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        custom: {
+          peach: '#e4c2b5',
+        },
       },
     },
   },
