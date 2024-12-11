@@ -37,7 +37,7 @@ export const Header = () => {
 
     return (
         <>
-            <header className="sticky top-0">
+            <header className="sticky top-0 left-0 right-0 bg-white px-2">
                 <nav className="bg-white text-black">
                     <div className={`${bodoniModa.className} font-medium flex justify-between items-center h-24`}>
                         <Link href="/">
