@@ -14,7 +14,7 @@ export default function Home() {
         <Image src="/coverimage.png" alt="Justus Kimtai cover image" width={380} height={346} className="p-4"/>
         <CoverText />
       </div>
-      <div className={`flex flex-col h-screen justify-center items-center ${styles.scrollanimate}`}>
+      <div className={`flex flex-col py-40 justify-center items-center ${styles.scrollanimate}`}>
         <CallToAction />
       </div>
       <div className={`flex flex-col justify-center items-center mt-5 space-y-10 lg:space-x-4 sm:flex-row h-screen`}>
