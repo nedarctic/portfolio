@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# My Portfolio App
 
-## Getting Started
+Welcome to my portfolio! 🎉  
+This app showcases my skills, projects, and the journey of a passionate full-stack developer who loves building user-focused solutions.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## About Me 🌍
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Hi there! I'm **Justus Kimtai**, a full-stack web and Android developer based in Kenya.  
+I specialize in crafting user-friendly, robust, and scalable applications that solve real-world problems. My expertise spans a wide range of technologies, including:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Frontend:** JavaScript (JS), TypeScript (TS), React, Next.js  
+- **Backend:** Node.js, Python, Java, C++  
+- **Mobile Development:** Native Android (Java/Kotlin)  
+- **Tools and Frameworks:** Docker, Django, Express.js, and more.  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+I am always eager to collaborate on exciting projects, whether as a developer-for-hire or a volunteer.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Features of This Portfolio
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Modern UI:** A sleek, responsive design to showcase creativity and usability.
+2. **Projects Gallery:** Explore projects I’ve worked on and the problems they solve.
+3. **Contact Me:** A simple way to reach out if you're looking to hire or collaborate.
+4. **Dynamic and Scalable:** Built with cutting-edge technologies like **Next.js** for fast, SEO-optimized, and server-rendered content.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Technologies Used 🚀
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This portfolio is powered by:
+- **Next.js:** For a seamless, server-side rendered experience.
+- **React:** For building dynamic, interactive user interfaces.
+- **Tailwind CSS:** To ensure beautiful and responsive design.
+- **Node.js:** Backend API integration.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Why Choose Me? 🙋‍♂️
+
+If you're looking for:
+- A **dedicated professional** to turn your ideas into reality,  
+- A **proficient coder** who can handle both frontend and backend tasks,  
+- Or someone passionate about **contributing to impactful projects**,  
+
+You’ve come to the right place! Let's build something amazing together.
+
+---
+
+## Get in Touch 📬
+
+Feel free to reach out for collaborations, hiring, or volunteering opportunities!  
+
+- **Email:** justkimtai@gmail.com
+- **Twitter:** [@JustusKimtai](https://twitter.com/justkimtai)
+
+---
+
+## Installation & Setup
+
+Want to run this portfolio locally? Here's how:  
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/justkimtai/portfolio.git
+   cd portfolio
+   npm install
+   npm run dev

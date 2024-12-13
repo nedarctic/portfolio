@@ -63,11 +63,6 @@ export const Header = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/services" className={pathname === "/services" ? "underline" : "hover:text-gray-300"}>
-                                    Services
-                                </Link>
-                            </li>
-                            <li>
                                 <Link href="/work" className={pathname === "/work" ? "underline" : "hover:text-gray-300"}>
                                     Work
                                 </Link>
@@ -114,7 +109,6 @@ export const Header = () => {
                             {[
                                 { href: "/", label: "Home" },
                                 { href: "/skills", label: "Skills" },
-                                { href: "/services", label: "Services" },
                                 { href: "/work", label: "Work" },
                                 { href: "/contact", label: "Get in touch!" },
                             ].map((item) => (
