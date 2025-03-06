@@ -12,7 +12,7 @@ export const Skills = () => {
                 <Image className={`${styles.scrollanimate}`} src="/selectionone.svg" alt="Group of skill logos" width={300} height={300} />
                 <Image className={`${styles.scrollanimate}`} src="/selectiontwo.svg" alt="Group of skill logos" width={300} height={300} />
             </div>
-            <div className="flex flex-col justify-end items-center p-10">
+            <div className="flex flex-col justify-end items-center px-5">
                 <ThankYou />
             </div>
         </div>

@@ -39,7 +39,7 @@ export const Work = () => {
                                     alt="resume"
                                     width={600}
                                     height={0}
-                                    className="w-auto shadow-2xl"
+                                    className="w-auto rounded-lg border-gray-500 border-2 shadow-2xl"
                                 />
             <p className={`${spaceMono.className} text-black font-normal italic my-2 p-4 text-sm lg:text-lg md:text-md`}>More coming soon!</p>
         </div>
