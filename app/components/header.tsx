@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
-import { bodoniModa } from "../ui/fonts";
+import { bodoniModa } from "@/app/ui/fonts";
 
 export const Header = () => {
     const pathname = usePathname();
@@ -18,7 +18,7 @@ export const Header = () => {
     };
 
     useEffect(() => {
-        if(!isMenuOpen) return
+        if (!isMenuOpen) return
 
         const handleClickOutside = () => {
             closeMenu();
@@ -116,7 +116,7 @@ export const Header = () => {
                                     <Link
                                         href={item.href}
                                         onClick={closeMenu}
-                                        className={`block text-black w-full p-2 rounded-md ${pathname === item.href ? "bg-custom-peach text-black font-bold" : "hover:bg-gray-200"}`}
+                                        className={`${bodoniModa.className} block text-black w-full p-2 rounded-md ${pathname === item.href ? "bg-custom-peach text-black font-bold" : "hover:bg-gray-200"}`}
                                     >
                                         {item.label}
                                     </Link>

@@ -11,7 +11,7 @@ import styles from './styles/ScrollAnimate.module.css';
 
 export default function Home() {
   return (
-    <div className="bg-white">
+    <div className='flex flex-col justify-center items-center space-y-10'>
       <div className="flex flex-col justify-center items-center mt-5 space-y-10 sm:flex-row">
         <Image src="/coverimage.png" alt="Justus Kimtai cover image" width={380} height={346} className="p-4" />
         <CoverText />

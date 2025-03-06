@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     name: "Justus Kimtai",
     url: "https://portfolio-asdx.onrender.com/",
   }],
-  icons: {icon: "/app/logo.png"},
+  icons: {icon: "/app/favicon.ico"},
 };
 
 export default function RootLayout({

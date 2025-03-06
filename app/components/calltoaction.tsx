@@ -1,9 +1,4 @@
-import { Bodoni_Moda } from "next/font/google";
-
-const bodoniModa = Bodoni_Moda({
-    subsets: ['latin'],
-    weight: ["400", "500", "600", "700", "800", "900"]
-});
+import { bodoniModa } from "@/app/ui/fonts";
 
 
 export const CallToAction = () => {

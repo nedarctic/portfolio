@@ -1,10 +1,5 @@
-import { Bodoni_Moda } from "next/font/google";
+import { bodoniModa } from "@/app/ui/fonts";
 import styles from '../styles/ScrollAnimate.module.css';
-
-const bodoniModa = Bodoni_Moda({
-    subsets: ['latin'],
-    weight: ["400", "500", "600", "700", "800", "900"]
-});
 
 
 export const AboutText = () => {

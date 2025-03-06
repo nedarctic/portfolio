@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { bodoniModa } from "../ui/fonts";
 import Link from "next/link";
-// import styles from '../styles/ScrollAnimate.module.css';
+import styles from '../styles/ScrollAnimate.module.css';
 
 const workData = [
     { path: "/tablet.png", alt: "Tablet view image for Cedro Adventures" },
@@ -11,9 +11,9 @@ const workData = [
 
 export const Work = () => {
     return (
-        <div className="bg-cover bg-center w-full h-full flex flex-col justify-center items-center space-y-10 px-1 my-auto py-16 bg-white">
-            <p className={`${bodoniModa.className} font-bold md:text-2xl sm:text-lg text-xl lg:text-6xl self-center text-black`}>Work</p>
-            <p className={`${bodoniModa.className}`}><Link className="text-blue-500 italic underline text-xl" target="blank" href="https://cedroadventures.com">Cedro Adventures</Link></p>
+        <div className='flex flex-col justify-center items-center space-y-10 bg-white'>
+            <p className={`${bodoniModa.className} ${styles.scrollanimate} font-black text-black italic px-4 text-6xl`}>Work</p>
+            <p className={`${bodoniModa.className} text-black text-xl`}>View this work at <Link className="text-blue-500 italic underline text-xl" target="blank" href="https://cedroadventures.com">Cedro Adventures</Link></p>
             <div className="columns-1 sm:columns-2 lg:p-4 sm:p-2 md:p-3 p-1 gap-x-0">
                 {workData.map((image, index) => (
                     <div key={index} className="mb-2 md:mb-4 break-inside-avoid">
@@ -32,6 +32,7 @@ export const Work = () => {
                     </div>
                 ))}
             </div>
+            <p className={`${bodoniModa.className} text-black font-normal italic my-2 p-4 text-sm lg:text-lg md:text-md`}>More coming soon!</p>
         </div>
 
     );

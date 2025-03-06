@@ -1,12 +1,6 @@
 "use client";
-
+import { bodoniModa } from "@/app/ui/fonts";
 import Link from "next/link";
-
-import { Bodoni_Moda } from "next/font/google";
-const bodoniModa = Bodoni_Moda({
-    subsets: ['latin'],
-    weight: ["400", "500", "600", "700", "800", "900"]
-});
 
 export const CoverText = () => {
     return (
