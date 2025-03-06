@@ -11,11 +11,11 @@ const workData = [
 
 export const Work = () => {
     return (
-        <div className='flex flex-col justify-center items-center space-y-10 lg:px-20 md:px-10 sm:px-8 px-7 py-10'>
+        <div className='flex flex-col justify-center items-center space-y-10 lg:px-20 md:px-10 sm:px-8 px-5 py-10'>
             <p className={`${spaceMono.className} ${styles.scrollanimate} font-black text-black italic px-4 text-6xl`}>Work</p>
             <p className={`${spaceMono.className} font-black text-black italic px-4 md:text-2xl text-xl lg:text-4xl`}>1. Travel Company Website (Fullstack)</p>
             <p className={`${spaceMono.className} text-black text-xl`}>View this work at <Link className="text-blue-500 italic underline text-xl" target="blank" href="https://cedroadventures.com">Cedro Adventures</Link></p>
-            <div className="columns-1 sm:columns-2 lg:p-4 sm:p-2 md:p-3 p-4 gap-2">
+            <div className="columns-1 sm:columns-2 lg:p-4 sm:p-2 md:p-3 gap-2">
                 {workData.map((image, index) => (
                     <div key={index} className="mb-2 break-inside-avoid">
                         <div className="flex flex-col items-center">
@@ -33,13 +33,13 @@ export const Work = () => {
                     </div>
                 ))}
             </div>
-            <p className={`${spaceMono.className} font-black text-black italic px-4 md:text-2xl text-xl lg:text-4xl`}>2. Professional Resume</p>
+            <p className={`${spaceMono.className} font-black text-black italic px-6 md:text-2xl text-xl lg:text-4xl`}>2. Professional Resume</p>
             <Image
                                     src="/resume.png"
                                     alt="resume"
                                     width={600}
                                     height={0}
-                                    className="w-auto rounded-lg border-gray-500 border-2 shadow-2xl"
+                                    className="w-[300px] sm:w-auto rounded-lg border-gray-500 border-2 shadow-2xl"
                                 />
             <p className={`${spaceMono.className} text-black font-normal italic my-2 p-4 text-sm lg:text-lg md:text-md`}>More coming soon!</p>
         </div>
