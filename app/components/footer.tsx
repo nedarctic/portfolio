@@ -41,7 +41,7 @@ export const Footer = () => {
                     <Image src="/logo.svg" alt="Logo in the footer section" width={200} height={200} className='self-center' />
                     <div className='self-center'>
                         <p className={`${spaceMono.className} text-black font-normal text-sm lg:text-lg md:text-md space-x-5`}>Justus Kimtai</p>
-                        <p className={`${spaceMono.className} text-black font-normal text-sm space-x-5`}>2024</p>
+                        <p className={`${spaceMono.className} text-black font-normal text-sm space-x-5`}>{new Date().getFullYear()}</p>
                     </div>
                 </div>
             </div>
