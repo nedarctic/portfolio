@@ -5,7 +5,9 @@ export default function WorkPage() {
     return (
         <div className="flex flex-col justify-end items-center">
             <Work />
-            <ThankYou />
+	    <div className="p-10">
+                <ThankYou />
+	    </div>
         </div>
     );
 }
