@@ -15,18 +15,18 @@ export const Work = () => {
             <p className={`${spaceMono.className} ${styles.scrollanimate} font-black text-black italic px-4 text-6xl`}>Work</p>
             <p className={`${spaceMono.className} font-black text-black italic px-4 md:text-2xl text-xl lg:text-4xl`}>1. Travel Company Website (Fullstack)</p>
             <p className={`${spaceMono.className} text-black text-xl`}>View this work at <Link className="text-blue-500 italic underline text-xl" target="blank" href="https://cedroadventures.com">Cedro Adventures</Link></p>
-            <div className="columns-1 sm:columns-2 lg:p-4 sm:p-2 md:p-3 p-1 gap-x-0">
+            <div className="columns-1 sm:columns-2 lg:p-4 sm:p-2 md:p-3 p-4 gap-2">
                 {workData.map((image, index) => (
-                    <div key={index} className="mb-2 md:mb-4 break-inside-avoid">
-                        <div className="flex justify-center items-center">
-                            <Link className="text-blue-500 italic underline text-xl" target="blank" href="https://cedroadventures.com">
+                    <div key={index} className="mb-2 break-inside-avoid">
+                        <div className="flex flex-col items-center">
+                            <Link target="blank" href="https://cedroadventures.com">
                                 {/* Image */}
                                 <Image
                                     src={image.path}
                                     alt={image.alt}
-                                    width={200}
+                                    width={300}
                                     height={0}
-                                    className="w-auto rounded-lg shadow-2xl"
+                                    className="h-auto rounded-lg shadow-2xl"
                                 />
                             </Link>
                         </div>
