@@ -23,8 +23,8 @@ export default function Home() {
         <AboutText />
         <Image src="/aboutimage.png" alt="Justus Kimtai about image" width={300} height={340} className={`p-4`} />
       </div>
-      <div className="flex flex-col justify-center items-center py-5 space-y-10">
-      <Work/>
+      <div className="flex flex-col justify-center items-center">
+        <Work />
       </div>
       <div className="flex flex-col justify-end items-center p-10">
         <ThankYou />

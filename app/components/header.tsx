@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
-import { bodoniModa } from "@/app/ui/fonts";
+import { spaceMono } from "@/app/ui/fonts";
 
 export const Header = () => {
     const pathname = usePathname();
@@ -39,7 +39,7 @@ export const Header = () => {
         <>
             <header className="sticky top-0 left-0 right-0 bg-white px-2 z-10">
                 <nav className="bg-white text-black">
-                    <div className={`${bodoniModa.className} font-medium flex justify-between items-center h-24`}>
+                    <div className={`${spaceMono.className} font-medium flex justify-between items-center h-24`}>
                         <Link href="/">
                             <Image
                                 src="/logo.svg"
@@ -116,7 +116,7 @@ export const Header = () => {
                                     <Link
                                         href={item.href}
                                         onClick={closeMenu}
-                                        className={`${bodoniModa.className} block text-black w-full p-2 rounded-md ${pathname === item.href ? "bg-custom-peach text-black font-bold" : "hover:bg-gray-200"}`}
+                                        className={`${spaceMono.className} block text-black w-full p-2 rounded-md ${pathname === item.href ? "bg-custom-peach text-black font-bold" : "hover:bg-gray-200"}`}
                                     >
                                         {item.label}
                                     </Link>
