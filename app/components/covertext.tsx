@@ -1,5 +1,12 @@
+"use client";
+
 import Link from "next/link";
-import { bodoniModa } from "../ui/fonts"
+
+import { Bodoni_Moda } from "next/font/google";
+const bodoniModa = Bodoni_Moda({
+    subsets: ['latin'],
+    weight: ["400", "500", "600", "700", "800", "900"]
+});
 
 export const CoverText = () => {
     return (
@@ -10,7 +17,7 @@ export const CoverText = () => {
             <div className="my-6">
                 <Link
                     href="#portfolio"
-                    className="text-black border-black py-2 px-6 border-2 hover:text-gray-300"
+                    className={`text-black border-black py-2 px-6 border-2 hover:text-gray-300 ${bodoniModa.className}`}
                 >
                     View Portfolio
                 </Link>
