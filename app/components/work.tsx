@@ -11,7 +11,8 @@ const workData = [
 
 const resumeData = [
     { path: "/resume.png", alt: "resume one" },
-    { path: "/jamesmwangicv.png", alt: "resume two" }
+    { path: "/jamesmwangicv.png", alt: "resume two" },
+    { path: "/kevinotienocv.png", alt: "resume three" }
 ];
 
 export const Work = () => {
@@ -41,7 +42,7 @@ export const Work = () => {
             <p className={`${spaceMono.className} font-black text-black italic px-6 md:text-2xl text-xl lg:text-4xl`}>2. Professional Resume</p>
             <div className="columns-1 sm:columns-2 lg:p-4 sm:p-2 md:p-3 gap-4">
                 {resumeData.map((item, index) => (
-                    <div key={index} className="mb-2 break-inside-avoid">
+                    <div key={index} className="mb-4 break-inside-avoid">
                         <div className="flex flex-col items-center">
                             <Image
                                 src={item.path}
