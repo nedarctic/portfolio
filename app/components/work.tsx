@@ -9,6 +9,11 @@ const workData = [
     { path: "/mobile.png", alt: "Mobile view image for Cedro Adventures" },
 ];
 
+const resumeData = [
+    { path: "/resume.png", alt: "resume one" },
+    { path: "/jamesmwangicv.png", alt: "resume two" }
+];
+
 export const Work = () => {
     return (
         <div className='flex flex-col justify-center items-center space-y-10 lg:px-20 md:px-10 sm:px-8 px-5 py-10'>
@@ -34,13 +39,21 @@ export const Work = () => {
                 ))}
             </div>
             <p className={`${spaceMono.className} font-black text-black italic px-6 md:text-2xl text-xl lg:text-4xl`}>2. Professional Resume</p>
-            <Image
-                                    src="/resume.png"
-                                    alt="resume"
-                                    width={600}
-                                    height={0}
-                                    className="w-[300px] sm:w-auto rounded-lg border-gray-500 border-2 shadow-2xl"
-                                />
+            <div className="columns-1 sm:columns-2 lg:p-4 sm:p-2 md:p-3 gap-4">
+                {resumeData.map((item, index) => (
+                    <div key={index} className="mb-2 break-inside-avoid">
+                        <div className="flex flex-col items-center">
+                            <Image
+                                src={item.path}
+                                alt="resume"
+                                width={300}
+                                height={0}
+                                className="h-auto rounded-lg border-gray-500 border-2 shadow-2xl"
+                            />
+                        </div>
+                    </div>
+                ))}
+            </div>
             <p className={`${spaceMono.className} text-black font-normal italic my-2 p-4 text-sm lg:text-lg md:text-md`}>More coming soon!</p>
         </div>
 
