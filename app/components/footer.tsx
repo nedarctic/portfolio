@@ -32,7 +32,7 @@ export const Footer = () => {
                         <Link href="https://twitter.com/justkimtai" target="_blank" rel="noopener noreferrer" className='block'>
                             <div className='flex items-center flex-row space-x-3'>
                                 <Image src="/twittericon.svg" alt="Twitter icon" width={40} height={40} />
-                                <p className={`${spaceMono.className} text-black font-normal italic text-sm lg:text-lg md:text-md space-x-5`}>justkimtai</p>
+                                <p className={`${spaceMono.className} text-black font-normal italic text-sm lg:text-lg md:text-md space-x-5`}>justus_kimtai</p>
                             </div>
                         </Link>
                     </div>
