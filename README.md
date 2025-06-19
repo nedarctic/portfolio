@@ -54,7 +54,7 @@ You’ve come to the right place! Let's build something amazing together.
 Feel free to reach out for collaborations, hiring, or volunteering opportunities!  
 
 - **Email:** justkimtai@gmail.com
-- **Twitter:** [@JustusKimtai](https://twitter.com/justkimtai)
+- **Twitter:** [@JustusKimtai](https://twitter.com/justus_kimtai)
 
 ---
 
