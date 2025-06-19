@@ -11,7 +11,6 @@ export default function ContactPage() {
                 a proficient coder who can handle both frontend and backend tasks,
                 or someone passionate about contributing to impactful projects,
                 you’ve come to the right place! Let&apos;s build something amazing together.
-                Get in Touch 📬
                 Feel free to reach out for collaborations, hiring, or volunteering opportunities! Let&apos;s connect, hit any of the contacts in this footer.</p>
             <div className='px-5'>
                 <ThankYou />

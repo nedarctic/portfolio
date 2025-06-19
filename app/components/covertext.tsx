@@ -10,10 +10,10 @@ export const CoverText = () => {
             <p className={`${spaceMono.className} text-black font-normal italic my-2 text-sm lg:text-lg md:text-md`}>Full-stack web/Android Developer</p>
             <div className="my-6">
                 <Link
-                    href="#portfolio"
+                    href="/cv"
                     className={`text-black border-black py-2 px-6 border-2 hover:text-gray-300 ${spaceMono.className}`}
                 >
-                    View Portfolio
+                    View Resume
                 </Link>
             </div>
         </div>
