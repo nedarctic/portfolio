@@ -1,11 +1,8 @@
 "use client";
 import { spaceMono } from "@/app/ui/fonts";
 import Link from "next/link";
-import Image from "next/image";
-import { AiFillFacebook } from "react-icons/ai";
 import { FaFacebookF } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa";
-import { MdOutlineMailOutline } from "react-icons/md";
 import { SiGmail } from "react-icons/si";
 import { FaXTwitter } from "react-icons/fa6";
 

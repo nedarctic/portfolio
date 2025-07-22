@@ -2,7 +2,6 @@ import Image from "next/image";
 
 import { AboutText } from "./components/abouttext";
 import { CoverText } from "./components/covertext";
-import { CallToAction } from "./components/calltoaction";
 import { ThankYou } from "./components/thankyou";
 import { Work } from "./components/work";
 
@@ -19,7 +18,7 @@ export default function Home() {
       <div className={`flex justify-end items-center mt-5 space-y-10 lg:space-x-4 sm:flex-row w-3/4 h-screen`}>
         <AboutText />
       </div>
-      <div className="flex flex-col justify-center items-center px-5">
+      <div className={`${styles.ScrollAnimate} flex flex-col justify-center items-center px-5`}>
         <Work />
       </div>
       <div className="flex flex-col justify-end items-center p-10">
