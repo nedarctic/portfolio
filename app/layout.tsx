@@ -25,7 +25,7 @@ export default function RootLayout({
       <body
         className="antialiased"
       >
-        <div className="bg-white">
+        <div className="bg-black">
           <Header />
           {children}
           <Footer />

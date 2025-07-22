@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 import { spaceMono } from "@/app/ui/fonts";
+import { FiMenu } from "react-icons/fi";
 
 export const Header = () => {
     const pathname = usePathname();
@@ -37,16 +38,15 @@ export const Header = () => {
 
     return (
         <>
-            <header className="sticky top-0 left-0 right-0 bg-white px-2 z-10">
-                <nav className="bg-white text-black">
-                    <div className={`${spaceMono.className} font-medium flex justify-between items-center h-24`}>
+            <header className="sticky top-0 left-0 right-0 bg-black px-2 z-10">
+                <nav className="bg-black text-white">
+                    <div className={`${spaceMono.className} font-medium flex justify-between items-center h-24 mx-4`}>
                         <Link href="/">
                             <Image
                                 src="/logo.svg"
                                 width={40}
                                 height={20}
                                 alt="The Justus Kimtai logo"
-                                className="ml-4"
                             />
                         </Link>
 
@@ -68,32 +68,14 @@ export const Header = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/contact" className="text-black border-black p-4 border-2 hover:text-gray-300">
+                                <Link href="/contact" className="text-white border-white p-4 border-2 hover:text-gray-300">
                                     Get in touch!
                                 </Link>
                             </li>
                         </ul>
 
                         {/* Mobile Navigation Button */}
-                        <button
-                            onClick={toggleMenu} // Hamburger button click will trigger the menu toggle
-                            className="md:hidden mr-4 text-black hover:text-lg focus:outline-none"
-                        >
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                className="h-6 w-6"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                stroke="currentColor"
-                            >
-                                <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth="2"
-                                    d="M4 6h16M4 12h16m-7 6h7"
-                                />
-                            </svg>
-                        </button>
+                        <FiMenu size={32} className="text-white md:hidden" onClick={toggleMenu} />
                     </div>
                 </nav>
             </header>
